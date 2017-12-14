@@ -149,6 +149,27 @@ describe('/api/company', () => {
             });
         });
     });
+
+    test('PUT should respond with 409 if request duplicates unique parameter', () => {
+      let dupCompany = {
+        name : 'Moog',
+        location : faker.lorem.words(1),
+        yearEstablished : faker.random.number(),
+        digitalAnalogOrBoth : 'digital',
+      };
+      return new Company({
+        name : 'Moog',
+        location : faker.lorem.words(1),
+        yearEstablished : faker.random.number(),
+        digitalAnalogOrBoth : 'digital',
+      }).save()
+        .then(company => superagent.put(`${__API_URL__}/${company._id}`)
+          .send(dupCompany)
+          .catch(response => {
+            expect(response.status).toEqual(409);
+          })
+        );
+    });
   });
 
   describe('DELETE /api/company', () => {
