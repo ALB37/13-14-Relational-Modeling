@@ -51,6 +51,27 @@ describe('/api/company', () => {
           expect(response.status).toEqual(400);
         });
     });
+
+    test('POST should respond with 409 if request duplicates unique parameter', () => {
+      let dupCompany = {
+        name : 'Moog',
+        location : faker.lorem.words(1),
+        yearEstablished : faker.random.number(),
+        digitalAnalogOrBoth : 'digital',
+      };
+      return new Company({
+        name : 'Moog',
+        location : faker.lorem.words(1),
+        yearEstablished : faker.random.number(),
+        digitalAnalogOrBoth : 'digital',
+      }).save()
+        .then(() => superagent.post(`${__API_URL__}`)
+          .send(dupCompany)
+          .catch(response => {
+            expect(response.status).toEqual(409);
+          })
+        );
+    });
   });
 
   describe('GET /api/company', () => {
@@ -109,6 +130,23 @@ describe('/api/company', () => {
         .then(company => superagent.put(`${__API_URL__}/${company._id}`))
         .catch(response => {
           expect(response.status).toEqual(400);
+        });
+    });
+
+    test('PUT should respond with 404 if invalid id provided', () => {
+      let companyPut = {
+        name : faker.lorem.words(1),
+        location : faker.lorem.words(1),
+        yearEstablished : faker.random.number(),
+        digitalAnalogOrBoth : 'digital',
+      };
+      return createMockCompany()
+        .then(() => {
+          return superagent.put(`${__API_URL__}/5a2f38171865f60a35e145ff`)
+            .send(companyPut)
+            .catch(response => {
+              expect(response.status).toEqual(404);
+            });
         });
     });
   });
