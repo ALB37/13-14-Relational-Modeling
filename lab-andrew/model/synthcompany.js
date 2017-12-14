@@ -18,6 +18,10 @@ const synthCompanySchema = mongoose.Schema({
   digitalAnalogOrBoth : {
     type : String,
   },
+  synths : [{type : mongoose.Schema.Types.ObjectId,
+    ref: 'synth'}],
+},{
+  usePushEach : true,
 });
 
 module.exports = mongoose.model('synthCompany', synthCompanySchema);

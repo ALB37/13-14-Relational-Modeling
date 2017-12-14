@@ -57,13 +57,13 @@ describe('/api/company', () => {
         name : 'Moog',
         location : faker.lorem.words(1),
         yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'digital',
+        digitalAnalogOrBoth : 'analog',
       };
       return new Company({
         name : 'Moog',
         location : faker.lorem.words(1),
         yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'digital',
+        digitalAnalogOrBoth : 'analog',
       }).save()
         .then(() => superagent.post(`${__API_URL__}`)
           .send(dupCompany)
@@ -155,13 +155,13 @@ describe('/api/company', () => {
         name : 'Moog',
         location : faker.lorem.words(1),
         yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'digital',
+        digitalAnalogOrBoth : 'analog',
       };
       return new Company({
         name : 'Moog',
         location : faker.lorem.words(1),
         yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'digital',
+        digitalAnalogOrBoth : 'analog',
       }).save()
         .then(company => superagent.put(`${__API_URL__}/${company._id}`)
           .send(dupCompany)
