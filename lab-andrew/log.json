@@ -1,0 +1,37 @@
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.285Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T01:55:14.406Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T01:55:14.467Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.551Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.558Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T01:55:14.573Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T01:55:14.574Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T01:55:14.574Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.590Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.592Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31da02d84226552d0d55fc","timestamp":"2017-12-14T01:55:14.600Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T01:55:14.601Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.612Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":252}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":40563,"location":"sint","name":"dolor","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.612Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.620Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.621Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T01:55:14.626Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T01:55:14.627Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.632Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.633Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31da02d84226552d0d55fd","timestamp":"2017-12-14T01:55:14.640Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T01:55:14.641Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.645Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":253}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":41569,"location":"reprehenderit","name":"sit","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.645Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.659Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.661Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31da02d84226552d0d55fe","timestamp":"2017-12-14T01:55:14.668Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T01:55:14.668Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.676Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.677Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T01:55:14.681Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.688Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.690Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31da02d84226552d0d55ff","timestamp":"2017-12-14T01:55:14.697Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.700Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":255}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":55066,"location":"quia","name":"deleniti","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.700Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.706Z"}
