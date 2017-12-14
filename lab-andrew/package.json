@@ -7,7 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest -i --coverage"
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

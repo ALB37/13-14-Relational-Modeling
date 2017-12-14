@@ -1,0 +1,730 @@
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.285Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T01:55:14.406Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T01:55:14.467Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.551Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.558Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T01:55:14.573Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T01:55:14.574Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T01:55:14.574Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.590Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.592Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31da02d84226552d0d55fc","timestamp":"2017-12-14T01:55:14.600Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T01:55:14.601Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.612Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":252}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":40563,"location":"sint","name":"dolor","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.612Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.620Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.621Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T01:55:14.626Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T01:55:14.627Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.632Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.633Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31da02d84226552d0d55fd","timestamp":"2017-12-14T01:55:14.640Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T01:55:14.641Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.645Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":253}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":41569,"location":"reprehenderit","name":"sit","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.645Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.659Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.661Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31da02d84226552d0d55fe","timestamp":"2017-12-14T01:55:14.668Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T01:55:14.668Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.676Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.677Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T01:55:14.681Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.688Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T01:55:14.690Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31da02d84226552d0d55ff","timestamp":"2017-12-14T01:55:14.697Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T01:55:14.700Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":218,"3":2,"4":216,"5":66,"6":38,"7":85,"8":45,"9":13,"10":85,"11":255}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":55066,"location":"quia","name":"deleniti","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T01:55:14.700Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T01:55:14.706Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.169Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:03:17.237Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:03:17.266Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.307Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.312Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:03:17.319Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:03:17.319Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:03:17.319Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.329Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.331Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31dbe5c7eaf4565298bc90","timestamp":"2017-12-14T02:03:17.342Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:03:17.343Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:03:17.353Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":219,"3":229,"4":199,"5":234,"6":244,"7":86,"8":82,"9":152,"10":188,"11":144}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":63687,"location":"perspiciatis","name":"nihil","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:03:17.354Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.363Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.365Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:03:17.369Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:03:17.369Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.374Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.376Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31dbe5c7eaf4565298bc91","timestamp":"2017-12-14T02:03:17.385Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:03:17.386Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:03:17.389Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":219,"3":229,"4":199,"5":234,"6":244,"7":86,"8":82,"9":152,"10":188,"11":145}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":29450,"location":"accusantium","name":"aspernatur","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:03:17.389Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.401Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.402Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31dbe5c7eaf4565298bc92","timestamp":"2017-12-14T02:03:17.407Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:03:17.408Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.413Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.414Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:03:17.420Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:03:17.420Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.424Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.425Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:03:17.430Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.436Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:03:17.437Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31dbe5c7eaf4565298bc94","timestamp":"2017-12-14T02:03:17.443Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:03:17.446Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":219,"3":229,"4":199,"5":234,"6":244,"7":86,"8":82,"9":152,"10":188,"11":148}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":36290,"location":"iure","name":"quis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:03:17.446Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:03:17.451Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:32.955Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:07:33.025Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:07:33.055Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.093Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.097Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:07:33.104Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:07:33.104Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.116Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.118Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31dce571182756ab9080fe","timestamp":"2017-12-14T02:07:33.126Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:07:33.127Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.136Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":220,"3":229,"4":113,"5":24,"6":39,"7":86,"8":171,"9":144,"10":128,"11":254}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":56288,"location":"molestiae","name":"exercitationem","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:07:33.136Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.143Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.144Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:07:33.148Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:07:33.149Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.151Z"}
+{"level":"info","message":"","timestamp":"2017-12-14T02:07:33.151Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.154Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.155Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31dce571182756ab9080ff","timestamp":"2017-12-14T02:07:33.162Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:07:33.163Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.167Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":220,"3":229,"4":113,"5":24,"6":39,"7":86,"8":171,"9":144,"10":128,"11":255}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":63143,"location":"molestiae","name":"quae","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:07:33.167Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.178Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.179Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31dce571182756ab908100","timestamp":"2017-12-14T02:07:33.187Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:07:33.188Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.191Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":220,"3":229,"4":113,"5":24,"6":39,"7":86,"8":171,"9":144,"10":129,"11":0}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"_id":true},"modify":{"location":true,"name":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":2320,"location":"undefined","name":"undefined","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:07:33.191Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.200Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.201Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:07:33.207Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:07:33.208Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.212Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.213Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:07:33.217Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.221Z"}
+{"level":"info","message":"","timestamp":"2017-12-14T02:07:33.221Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.224Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:07:33.225Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31dce571182756ab908102","timestamp":"2017-12-14T02:07:33.231Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:07:33.233Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":220,"3":229,"4":113,"5":24,"6":39,"7":86,"8":171,"9":144,"10":129,"11":2}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":41772,"location":"aut","name":"molestiae","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:07:33.233Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:07:33.239Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.205Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:24:52.265Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:24:52.290Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.330Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.334Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:24:52.341Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:24:52.342Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:24:52.342Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.350Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.351Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:24:52.358Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:24:52.359Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.371Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.372Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e0f45e235157b27a1c6e","timestamp":"2017-12-14T02:24:52.378Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:24:52.379Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:24:52.387Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":224,"3":244,"4":94,"5":35,"6":81,"7":87,"8":178,"9":122,"10":28,"11":110}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":14209,"location":"sed","name":"cum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:24:52.387Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.393Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.394Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:24:52.398Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:24:52.399Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.404Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.405Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e0f45e235157b27a1c6f","timestamp":"2017-12-14T02:24:52.411Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:24:52.412Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:24:52.416Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":224,"3":244,"4":94,"5":35,"6":81,"7":87,"8":178,"9":122,"10":28,"11":111}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":61527,"location":"eos","name":"nesciunt","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:24:52.416Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.430Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.431Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e0f45e235157b27a1c70","timestamp":"2017-12-14T02:24:52.439Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:24:52.439Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.443Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.444Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:24:52.450Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:24:52.450Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.454Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.455Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:24:52.459Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.465Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:24:52.466Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e0f45e235157b27a1c72","timestamp":"2017-12-14T02:24:52.471Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:24:52.473Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":224,"3":244,"4":94,"5":35,"6":81,"7":87,"8":178,"9":122,"10":28,"11":114}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":1291,"location":"facere","name":"enim","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:24:52.473Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:24:52.478Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.468Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:27:13.535Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:27:13.562Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.603Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.608Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:27:13.615Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:27:13.615Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:27:13.616Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.625Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.626Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:27:13.634Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:27:13.635Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.651Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.653Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e181706afd57f3b3fa5d","timestamp":"2017-12-14T02:27:13.659Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:27:13.660Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:27:13.669Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":225,"3":129,"4":112,"5":106,"6":253,"7":87,"8":243,"9":179,"10":250,"11":93}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":94358,"location":"qui","name":"qui","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:27:13.670Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.677Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.678Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:27:13.690Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:27:13.690Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.707Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.708Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e181706afd57f3b3fa5e","timestamp":"2017-12-14T02:27:13.719Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:27:13.720Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:27:13.723Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":225,"3":129,"4":112,"5":106,"6":253,"7":87,"8":243,"9":179,"10":250,"11":94}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":44767,"location":"unde","name":"cupiditate","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:27:13.723Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.733Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.735Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e181706afd57f3b3fa5f","timestamp":"2017-12-14T02:27:13.744Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:27:13.744Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.750Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.751Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:27:13.758Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:27:13.759Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.763Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.764Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:27:13.769Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.775Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:27:13.776Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e181706afd57f3b3fa61","timestamp":"2017-12-14T02:27:13.782Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:27:13.785Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":225,"3":129,"4":112,"5":106,"6":253,"7":87,"8":243,"9":179,"10":250,"11":97}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":82465,"location":"nisi","name":"ratione","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:27:13.785Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:27:13.791Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.578Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:30:46.639Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:30:46.665Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.713Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.717Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:30:46.724Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:30:46.724Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:30:46.724Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.732Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.733Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:30:46.740Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:30:46.741Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.750Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.752Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e2562b18d5584f37db3c","timestamp":"2017-12-14T02:30:46.759Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:30:46.760Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:30:46.769Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":86,"4":43,"5":24,"6":213,"7":88,"8":79,"9":55,"10":219,"11":60}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":43573,"location":"assumenda","name":"harum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:30:46.770Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.781Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.782Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:30:46.787Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:30:46.787Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.791Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.792Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e2562b18d5584f37db3d","timestamp":"2017-12-14T02:30:46.798Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:30:46.799Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:30:46.801Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":86,"4":43,"5":24,"6":213,"7":88,"8":79,"9":55,"10":219,"11":61}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":25194,"location":"provident","name":"quos","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:30:46.801Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.810Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.811Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e2562b18d5584f37db3e","timestamp":"2017-12-14T02:30:46.816Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:30:46.817Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.820Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.821Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:30:46.827Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:30:46.828Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.831Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.832Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:30:46.836Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.843Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:30:46.844Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e2562b18d5584f37db40","timestamp":"2017-12-14T02:30:46.849Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:30:46.851Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":86,"4":43,"5":24,"6":213,"7":88,"8":79,"9":55,"10":219,"11":64}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":68378,"location":"aut","name":"distinctio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:30:46.851Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:30:46.855Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.616Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:32:59.700Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:32:59.727Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.763Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.767Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:32:59.774Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:32:59.774Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:32:59.774Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.784Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.785Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:32:59.791Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:32:59.792Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.800Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.802Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e2dbaab62f588c579dee","timestamp":"2017-12-14T02:32:59.808Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:32:59.808Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:32:59.817Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":219,"4":170,"5":182,"6":47,"7":88,"8":140,"9":87,"10":157,"11":238}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":19229,"location":"doloribus","name":"eum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:32:59.817Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.823Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.824Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:32:59.828Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:32:59.828Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.833Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.834Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e2dbaab62f588c579def","timestamp":"2017-12-14T02:32:59.841Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:32:59.842Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:32:59.844Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":219,"4":170,"5":182,"6":47,"7":88,"8":140,"9":87,"10":157,"11":239}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":55857,"location":"repellendus","name":"vel","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:32:59.844Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.853Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.854Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e2dbaab62f588c579df0","timestamp":"2017-12-14T02:32:59.861Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:32:59.861Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.867Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.868Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:32:59.873Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:32:59.874Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.877Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.878Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:32:59.882Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.889Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:32:59.890Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e2dbaab62f588c579df2","timestamp":"2017-12-14T02:32:59.896Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:32:59.898Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":226,"3":219,"4":170,"5":182,"6":47,"7":88,"8":140,"9":87,"10":157,"11":242}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":17979,"location":"est","name":"rerum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:32:59.898Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:32:59.903Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:36:59.982Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:37:00.057Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:37:00.086Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.125Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.130Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:37:00.137Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:37:00.137Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:37:00.137Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.147Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.148Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:37:00.155Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:37:00.156Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.165Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.167Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e3cc93d5a658e01146b9","timestamp":"2017-12-14T02:37:00.173Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:37:00.174Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:37:00.181Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":227,"3":204,"4":147,"5":213,"6":166,"7":88,"8":224,"9":17,"10":70,"11":185}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":32765,"location":"sunt","name":"dicta","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:37:00.182Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.188Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.189Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:37:00.193Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:37:00.193Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.199Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.200Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e3cc93d5a658e01146ba","timestamp":"2017-12-14T02:37:00.206Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:37:00.207Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:37:00.210Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":227,"3":204,"4":147,"5":213,"6":166,"7":88,"8":224,"9":17,"10":70,"11":186}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":54967,"location":"amet","name":"provident","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:37:00.210Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.224Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.225Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e3cc93d5a658e01146bb","timestamp":"2017-12-14T02:37:00.232Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:37:00.233Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.237Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.238Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:37:00.244Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:37:00.245Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.248Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.249Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:37:00.253Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.260Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:37:00.260Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e3cc93d5a658e01146bd","timestamp":"2017-12-14T02:37:00.266Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:37:00.268Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":227,"3":204,"4":147,"5":213,"6":166,"7":88,"8":224,"9":17,"10":70,"11":189}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":80048,"location":"voluptatem","name":"dicta","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:37:00.268Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:37:00.273Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:38:47.338Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:38:47.398Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:38:47.430Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:38:47.542Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:38:47.546Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:38:47.554Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:38:47.555Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:38:47.555Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:38:47.564Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:38:47.565Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:38:47.574Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:38:47.575Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:38:57.579Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:02.589Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:07.598Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:12.602Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:17.613Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:22.622Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:39:27.634Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:39:53.710Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:39:53.771Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:39:53.807Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:39:53.919Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:39:53.923Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:39:53.930Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:39:53.931Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:39:53.931Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:39:53.940Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:39:53.941Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:39:53.950Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:39:53.951Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:40:35.447Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:40:35.507Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:40:35.534Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:40:35.574Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:40:35.578Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:40:35.584Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:40:35.585Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:40:35.585Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:40:35.597Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:40:35.599Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:40:35.608Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:40:35.609Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:40:45.612Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:40:50.624Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:40:55.633Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:41:00.645Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:41:05.653Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:41:10.660Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-14T02:41:15.665Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:01.804Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:42:01.866Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:42:01.892Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:01.929Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:01.935Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:42:02.027Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:42:02.028Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:42:02.028Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.029Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Object.<anonymous>.companyRouter.post (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:15:17)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at jsonParser (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/body-parser/lib/types/json.js:118:7)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Object.<anonymous>.module.exports (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/lib/logger-middleware.js:10:10)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at query (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/query.js:45:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/application.js:174:10)\n    at Server.app (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/express.js:39:9)\n    at emitTwo (events.js:126:13)\n    at Server.emit (events.js:214:7)\n    at parserOnIncoming (_http_server.js:602:12)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:42:02.029Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:42:02.030Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.035Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.037Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:42:02.044Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:42:02.045Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.048Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.synthcompanies index: name_1 dup key: { : \"Moog\" }","op":{"name":"Moog","location":"et","yearEstablished":45132,"digitalAnalogOrBoth":"digital","_id":"5a31e4fab32cb659be4a3a9e","__v":0}}
+{"level":"info","message":"Responding with a 409 status code","timestamp":"2017-12-14T02:42:02.049Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.053Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.055Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e4fab32cb659be4a3a9f","timestamp":"2017-12-14T02:42:02.062Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:42:02.062Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:42:02.071Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":228,"3":250,"4":179,"5":44,"6":182,"7":89,"8":190,"9":74,"10":58,"11":159}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":52577,"location":"et","name":"cumque","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:42:02.072Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.080Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.081Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:42:02.086Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:42:02.087Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.089Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:29:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:42:02.089Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:42:02.089Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.091Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.092Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e4fab32cb659be4a3aa0","timestamp":"2017-12-14T02:42:02.098Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:42:02.100Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:42:02.102Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":228,"3":250,"4":179,"5":44,"6":182,"7":89,"8":190,"9":74,"10":58,"11":160}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":46496,"location":"omnis","name":"eum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:42:02.103Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.114Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.115Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e4fab32cb659be4a3aa1","timestamp":"2017-12-14T02:42:02.121Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:42:02.121Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.123Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:44:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:42:02.123Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:42:02.123Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.126Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.127Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:42:02.132Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:42:02.133Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.134Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:47:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:42:02.134Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:42:02.135Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.137Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.138Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:42:02.142Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:42:02.146Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findByIdAndRemove.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:76:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:42:02.146Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:42:02.146Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.149Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:42:02.150Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e4fab32cb659be4a3aa3","timestamp":"2017-12-14T02:42:02.155Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:42:02.157Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":228,"3":250,"4":179,"5":44,"6":182,"7":89,"8":190,"9":74,"10":58,"11":163}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":30167,"location":"ipsa","name":"nisi","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:42:02.157Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:42:02.161Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.374Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:44:22.432Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:44:22.465Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.506Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.510Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:44:22.516Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:44:22.517Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:44:22.517Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.518Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Object.<anonymous>.companyRouter.post (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:15:17)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at jsonParser (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/body-parser/lib/types/json.js:118:7)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Object.<anonymous>.module.exports (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/lib/logger-middleware.js:10:10)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at query (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/query.js:45:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/application.js:174:10)\n    at Server.app (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/express.js:39:9)\n    at emitTwo (events.js:126:13)\n    at Server.emit (events.js:214:7)\n    at parserOnIncoming (_http_server.js:602:12)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:44:22.518Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:44:22.519Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.524Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.525Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:44:22.532Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:44:22.533Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.535Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.synthcompanies index: name_1 dup key: { : \"Moog\" }","op":{"name":"Moog","location":"voluptas","yearEstablished":90974,"digitalAnalogOrBoth":"digital","_id":"5a31e5864322cd59fe3f6f72","__v":0}}
+{"level":"info","message":"Responding with a 409 status code","timestamp":"2017-12-14T02:44:22.536Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.539Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.541Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e5864322cd59fe3f6f73","timestamp":"2017-12-14T02:44:22.548Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:44:22.549Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:44:22.562Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":229,"3":134,"4":67,"5":34,"6":205,"7":89,"8":254,"9":63,"10":111,"11":115}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":26726,"location":"non","name":"enim","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:44:22.562Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.573Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.574Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:44:22.578Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:44:22.579Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.582Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:29:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:44:22.582Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:44:22.582Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.584Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.585Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e5864322cd59fe3f6f74","timestamp":"2017-12-14T02:44:22.591Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:44:22.591Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:44:22.594Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":229,"3":134,"4":67,"5":34,"6":205,"7":89,"8":254,"9":63,"10":111,"11":116}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":90044,"location":"illo","name":"aut","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:44:22.594Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.602Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.603Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e5864322cd59fe3f6f75","timestamp":"2017-12-14T02:44:22.608Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:44:22.609Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.610Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:44:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:44:22.610Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:44:22.610Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.613Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.614Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:44:22.620Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:44:22.620Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.621Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:47:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:44:22.621Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:44:22.622Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.624Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.625Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:44:22.629Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:44:22.633Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findByIdAndRemove.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:76:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:44:22.633Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:44:22.634Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.636Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:44:22.636Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e5864322cd59fe3f6f77","timestamp":"2017-12-14T02:44:22.642Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:44:22.644Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":229,"3":134,"4":67,"5":34,"6":205,"7":89,"8":254,"9":63,"10":111,"11":119}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":15458,"location":"ut","name":"eveniet","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:44:22.644Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:44:22.648Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.065Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:50:43.125Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:50:43.153Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.188Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.192Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:50:43.199Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:50:43.199Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:50:43.199Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.200Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Object.<anonymous>.companyRouter.post (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:15:17)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at jsonParser (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/body-parser/lib/types/json.js:118:7)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Object.<anonymous>.module.exports (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/lib/logger-middleware.js:10:10)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at query (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/query.js:45:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/application.js:174:10)\n    at Server.app (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/express.js:39:9)\n    at emitTwo (events.js:126:13)\n    at Server.emit (events.js:214:7)\n    at parserOnIncoming (_http_server.js:602:12)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:50:43.200Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:50:43.201Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.205Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.207Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:50:43.214Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:50:43.215Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.217Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.synthcompanies index: name_1 dup key: { : \"Moog\" }","op":{"name":"Moog","location":"doloribus","yearEstablished":50005,"digitalAnalogOrBoth":"digital","_id":"5a31e703e3e9105ab0572675","__v":0}}
+{"level":"info","message":"Responding with a 409 status code","timestamp":"2017-12-14T02:50:43.218Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.221Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.222Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e703e3e9105ab0572676","timestamp":"2017-12-14T02:50:43.229Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:50:43.230Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:50:43.240Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":3,"4":227,"5":233,"6":16,"7":90,"8":176,"9":87,"10":38,"11":118}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":37912,"location":"repudiandae","name":"porro","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:50:43.240Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.246Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.247Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:50:43.251Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:50:43.251Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.253Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:29:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:50:43.253Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:50:43.253Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.255Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.256Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e703e3e9105ab0572677","timestamp":"2017-12-14T02:50:43.263Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:50:43.264Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:50:43.266Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":3,"4":227,"5":233,"6":16,"7":90,"8":176,"9":87,"10":38,"11":119}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":83457,"location":"necessitatibus","name":"consequatur","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:50:43.266Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.276Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.277Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e703e3e9105ab0572678","timestamp":"2017-12-14T02:50:43.283Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:50:43.284Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.286Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:44:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:50:43.286Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:50:43.286Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.289Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.291Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:50:43.297Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:50:43.298Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.299Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:47:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:50:43.299Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:50:43.299Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.301Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.302Z"}
+{"level":"info","message":"Processing : POST on : /api/company/5a31e703e3e9105ab057267a","timestamp":"2017-12-14T02:50:43.308Z"}
+{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-14T02:50:43.308Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.313Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.314Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:50:43.318Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:50:43.322Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findByIdAndRemove.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:76:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:50:43.322Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:50:43.322Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.324Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:50:43.325Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e703e3e9105ab057267b","timestamp":"2017-12-14T02:50:43.331Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:50:43.333Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":3,"4":227,"5":233,"6":16,"7":90,"8":176,"9":87,"10":38,"11":123}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":81606,"location":"nisi","name":"distinctio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:50:43.333Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:50:43.337Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:08.815Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:51:08.873Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:51:08.894Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:08.935Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:08.940Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:51:08.954Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:51:08.955Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T02:51:08.955Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:08.956Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Object.<anonymous>.companyRouter.post (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:15:17)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at jsonParser (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/body-parser/lib/types/json.js:118:7)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Object.<anonymous>.module.exports (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/lib/logger-middleware.js:10:10)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at query (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/query.js:45:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/application.js:174:10)\n    at Server.app (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/express.js:39:9)\n    at emitTwo (events.js:126:13)\n    at Server.emit (events.js:214:7)\n    at parserOnIncoming (_http_server.js:602:12)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:51:08.956Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:51:08.957Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:08.960Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:08.962Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T02:51:08.969Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T02:51:08.971Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:08.973Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.synthcompanies index: name_1 dup key: { : \"Moog\" }","op":{"name":"Moog","location":"voluptatem","yearEstablished":81506,"digitalAnalogOrBoth":"digital","_id":"5a31e71cbe0f915ad6311887","__v":0}}
+{"level":"info","message":"Responding with a 409 status code","timestamp":"2017-12-14T02:51:08.974Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:08.977Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:08.978Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31e71cbe0f915ad6311888","timestamp":"2017-12-14T02:51:08.984Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:51:08.985Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T02:51:08.993Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":28,"4":190,"5":15,"6":145,"7":90,"8":214,"9":49,"10":24,"11":136}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":2248,"location":"aut","name":"ipsa","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:51:08.993Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:08.999Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.000Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:51:09.004Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T02:51:09.004Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:09.007Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:29:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:51:09.007Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:51:09.007Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.009Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.010Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e71dbe0f915ad6311889","timestamp":"2017-12-14T02:51:09.017Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:51:09.018Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:51:09.021Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":29,"4":190,"5":15,"6":145,"7":90,"8":214,"9":49,"10":24,"11":137}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":71190,"location":"repellendus","name":"at","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:51:09.021Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.033Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.034Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e71dbe0f915ad631188a","timestamp":"2017-12-14T02:51:09.041Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:51:09.041Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:09.043Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:44:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T02:51:09.043Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T02:51:09.044Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.047Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.048Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:51:09.054Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:51:09.055Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:09.056Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:47:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:51:09.056Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:51:09.056Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.058Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.059Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31e71dbe0f915ad631188c","timestamp":"2017-12-14T02:51:09.065Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T02:51:09.065Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T02:51:09.067Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":29,"4":190,"5":15,"6":145,"7":90,"8":214,"9":49,"10":24,"11":140}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"name":true,"_id":true},"modify":{"location":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":11729,"location":"incidunt","name":"Moog","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:51:09.067Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.072Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.074Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T02:51:09.078Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T02:51:09.083Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findByIdAndRemove.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:76:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T02:51:09.083Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T02:51:09.083Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.085Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T02:51:09.086Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31e71dbe0f915ad631188d","timestamp":"2017-12-14T02:51:09.092Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T02:51:09.093Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":231,"3":29,"4":190,"5":15,"6":145,"7":90,"8":214,"9":49,"10":24,"11":141}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":63480,"location":"qui","name":"voluptas","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T02:51:09.094Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T02:51:09.099Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.127Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T03:06:35.185Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T03:06:35.210Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.259Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.263Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T03:06:35.269Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T03:06:35.269Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-14T03:06:35.270Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.270Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Object.<anonymous>.companyRouter.post (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:15:17)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at jsonParser (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/body-parser/lib/types/json.js:118:7)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:47:12)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Object.<anonymous>.module.exports (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/lib/logger-middleware.js:10:10)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at expressInit (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/init.js:40:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at query (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/middleware/query.js:45:5)\n    at Layer.handle [as handle_request] (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:317:13)\n    at /Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/router/index.js:174:3)\n    at Function.handle (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/application.js:174:10)\n    at Server.app (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/node_modules/express/lib/express.js:39:9)\n    at emitTwo (events.js:126:13)\n    at Server.emit (events.js:214:7)\n    at parserOnIncoming (_http_server.js:602:12)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:23)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T03:06:35.270Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T03:06:35.271Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.275Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.276Z"}
+{"level":"info","message":"Processing : POST on : /api/company","timestamp":"2017-12-14T03:06:35.283Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-14T03:06:35.284Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.286Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.synthcompanies index: name_1 dup key: { : \"Moog\" }","op":{"name":"Moog","location":"blanditiis","yearEstablished":19725,"digitalAnalogOrBoth":"digital","_id":"5a31eabb1e54105c530328ea","__v":0}}
+{"level":"info","message":"Responding with a 409 status code","timestamp":"2017-12-14T03:06:35.288Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.290Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.292Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a31eabb1e54105c530328eb","timestamp":"2017-12-14T03:06:35.298Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T03:06:35.299Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-14T03:06:35.310Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":234,"3":187,"4":30,"5":84,"6":16,"7":92,"8":83,"9":3,"10":40,"11":235}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":38957,"location":"explicabo","name":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T03:06:35.310Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.316Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.317Z"}
+{"level":"info","message":"Processing : GET on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T03:06:35.323Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-14T03:06:35.323Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.325Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:29:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T03:06:35.325Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T03:06:35.325Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.328Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.329Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31eabb1e54105c530328ec","timestamp":"2017-12-14T03:06:35.335Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T03:06:35.336Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T03:06:35.338Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":234,"3":187,"4":30,"5":84,"6":16,"7":92,"8":83,"9":3,"10":40,"11":236}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"modify","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"_id":true},"modify":{"location":true,"name":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":98918,"location":"aut","name":"sunt","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T03:06:35.339Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.346Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.347Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31eabb1e54105c530328ed","timestamp":"2017-12-14T03:06:35.353Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T03:06:35.353Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.355Z"}
+{"message":"body and content are required","stack":"BadRequestError: body and content are required\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:44:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"BadRequestError","level":"info","timestamp":"2017-12-14T03:06:35.355Z"}
+{"level":"info","message":"Responding with a 400 status and message: body and content are required","timestamp":"2017-12-14T03:06:35.355Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.357Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.358Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T03:06:35.364Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T03:06:35.364Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.365Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findById.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:47:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T03:06:35.366Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T03:06:35.366Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.368Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.369Z"}
+{"level":"info","message":"Processing : PUT on : /api/company/5a31eabb1e54105c530328ef","timestamp":"2017-12-14T03:06:35.374Z"}
+{"level":"info","message":"PUT - processing a new put request","timestamp":"2017-12-14T03:06:35.375Z"}
+{"level":"info","message":"PUT - Returning a 200 status code","timestamp":"2017-12-14T03:06:35.376Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":234,"3":187,"4":30,"5":84,"6":16,"7":92,"8":83,"9":3,"10":40,"11":239}},"wasPopulated":false,"activePaths":{"paths":{"location":"modify","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"modify","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"name":true,"_id":true},"modify":{"location":true,"yearEstablished":true},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":81243,"location":"deleniti","name":"Moog","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T03:06:35.376Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.381Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.382Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a2f38171865f60a35e145ff","timestamp":"2017-12-14T03:06:35.386Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2017-12-14T03:06:35.390Z"}
+{"message":"company not found","stack":"NotFoundError: company not found\n    at Company.findByIdAndRemove.then.company (/Users/Andrew/cf/401/labs/13-14-Relational-Modeling/lab-andrew/route/synthcompany-router.js:76:13)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","name":"NotFoundError","level":"info","timestamp":"2017-12-14T03:06:35.390Z"}
+{"level":"info","message":"Responding with a 404 status and message: company not found","timestamp":"2017-12-14T03:06:35.391Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.393Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-14T03:06:35.394Z"}
+{"level":"info","message":"Processing : DELETE on : /api/company/5a31eabb1e54105c530328f0","timestamp":"2017-12-14T03:06:35.399Z"}
+{"level":"info","message":"DELETE - Returning a 200 status code","timestamp":"2017-12-14T03:06:35.401Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":49,"2":234,"3":187,"4":30,"5":84,"6":16,"7":92,"8":83,"9":3,"10":40,"11":240}},"wasPopulated":false,"activePaths":{"paths":{"location":"init","name":"init","__v":"init","digitalAnalogOrBoth":"init","yearEstablished":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"digitalAnalogOrBoth":true,"yearEstablished":true,"location":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"__v":0,"digitalAnalogOrBoth":"digital","yearEstablished":24736,"location":"sed","name":"magni","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-14T03:06:35.401Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-14T03:06:35.407Z"}

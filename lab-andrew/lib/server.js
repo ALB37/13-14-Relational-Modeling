@@ -15,7 +15,7 @@ mongoose.Promise = Promise;
 const app = express();
 
 app.use(require('./logger-middleware'));
-app.use(require('../route/cat-router'));
+app.use(require('../route/synthcompany-router'));
 
 app.all('*', (request, response) => {
   logger.log('info','Returning a 404 from the catch-all route');
