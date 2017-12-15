@@ -72,9 +72,6 @@ companyRouter.delete('/api/company/:id', (request, response, next) => {
       if (!company){
         throw httpErrors(404, 'company not found');
       }
-      if (company.synths.length){
-        throw httpErrors(401, 'company has active relations, delete unauthorized');
-      }
       logger.log('info', 'DELETE - Returning a 200 status code');
       logger.log('info', company);
       return response.sendStatus(204);

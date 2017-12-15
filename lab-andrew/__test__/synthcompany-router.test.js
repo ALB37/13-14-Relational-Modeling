@@ -140,7 +140,7 @@ describe('/api/company', () => {
             .then(company => superagent.put(`${__API_URL__}/${company._id}`)
               .send({
                 name : dupName,
-                location : faker.random.number(),
+                location : faker.lorem.words(1),
               })
               .catch(response => {
                 expect(response.status).toEqual(409);

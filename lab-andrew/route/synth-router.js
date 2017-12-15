@@ -37,12 +37,13 @@ synthRouter.put('/api/synth/:id', jsonParser, (request, response, next) => {
 
   return Synth.findById(request.params.id)
     .then(synth => {
-      if (!request.body.name || !request.body.polyphony || !request.body.synthCompany) {
-        throw httpErrors(400, 'body and required content is required');
+      if (!request.body) {
+        throw httpErrors(400, 'body is required');
       }
       if (!synth){
         throw httpErrors(404, 'synth not found');
       }
+
       synth.set({
         name: `${request.body.name}`,
         polyphony: `${request.body.polyphony}`,
@@ -55,7 +56,7 @@ synthRouter.put('/api/synth/:id', jsonParser, (request, response, next) => {
       }
       if (request.body.digitalAnalogOrHybrid){
         synth.set({
-          digitalAnalogOrHybrid: `${request.body.digitalAnaldigitalAnalogOrHybrid}`,
+          digitalAnalogOrHybrid: `${request.body.digitalAnalogOrHybrid}`,
         });
       }
       logger.log('info', 'PUT - Returning a 200 status code');
