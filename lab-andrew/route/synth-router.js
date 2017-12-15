@@ -43,12 +43,21 @@ synthRouter.put('/api/synth/:id', jsonParser, (request, response, next) => {
       if (!synth){
         throw httpErrors(404, 'synth not found');
       }
-
-      synth.set({
-        name: `${request.body.name}`,
-        polyphony: `${request.body.polyphony}`,
-        synthCompany: `${request.body.synthCompany}`,
-      });
+      if (request.body.name){
+        synth.set({
+          name: `${request.body.name}`,
+        });
+      }
+      if (request.body.polyphony){
+        synth.set({
+          polyphony: `${request.body.polyphony}`,
+        });
+      }
+      if (request.body.synthCompany){
+        synth.set({
+          synthCompany: `${request.body.synthCompany}`,
+        });
+      }
       if (request.body.yearReleased){
         synth.set({
           yearReleased: `${request.body.yearReleased}`,

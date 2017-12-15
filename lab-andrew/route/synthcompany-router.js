@@ -37,16 +37,22 @@ companyRouter.put('/api/company/:id', jsonParser, (request, response, next) => {
 
   return Company.findById(request.params.id)
     .then(company => {
-      if (!request.body.name || !request.body.location) {
+      if (!request.body) {
         throw httpErrors(400, 'body and content are required');
       }
       if (!company){
         throw httpErrors(404, 'company not found');
       }
-      company.set({
-        name: `${request.body.name}`,
-        location: `${request.body.location}`,
-      });
+      if (request.body.name){
+        company.set({
+          name: `${request.body.name}`,
+        });
+      }
+      if (request.body.location){
+        company.set({
+          location: `${request.body.location}`,
+        });
+      }
       if (request.body.yearEstablished){
         company.set({
           yearEstablished: `${request.body.yearEstablished}`,
