@@ -16,6 +16,7 @@ const app = express();
 
 app.use(require('./logger-middleware'));
 app.use(require('../route/synthcompany-router'));
+app.use(require('../route/synth-router'));
 
 app.all('*', (request, response) => {
   logger.log('info','Returning a 404 from the catch-all route');
@@ -27,11 +28,11 @@ app.use(require('./error-middleware'));
 const server = module.exports = {};
 server.start = () => {
   return new Promise((resolve, reject) => {
-    if(isServerOn){
+    if (isServerOn){
       logger.log('error', '__SERVER_ERROR__ server is already running');
       return reject(new Error('__SERVER_ERROR__ server is already running'));
     }
-    if(!PORT){
+    if (!PORT){
       logger.log('error', '__SERVER_ERROR__ PORT variable is not configured');
       return reject(new Error('__SERVER_ERROR__ PORT variable is not configured'));
     }
@@ -46,7 +47,7 @@ server.start = () => {
 
 server.stop = () => {
   return new Promise((resolve, reject) => {
-    if(!isServerOn){
+    if (!isServerOn){
       logger.log('error', '__SERVER_ERROR__ server is already off');
       return reject(new Error('__SERVER_ERROR__ server is already off'));
     }

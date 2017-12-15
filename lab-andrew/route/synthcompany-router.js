@@ -8,7 +8,6 @@ const jsonParser = require('body-parser').json();
 const companyRouter = module.exports = new Router();
 
 companyRouter.post('/api/company', jsonParser, (request, response, next) => {
-  logger.log('info', 'POST - processing new post request');
 
   if (!request.body.name || !request.body.location) {
     logger.log('info', 'POST - responding with a 400');
@@ -21,7 +20,6 @@ companyRouter.post('/api/company', jsonParser, (request, response, next) => {
 });
 
 companyRouter.get('/api/company/:id', (request, response, next) => {
-  logger.log('info', 'GET - processing a new get request');
 
   return Company.findById(request.params.id)
     .then(company => {
@@ -36,20 +34,25 @@ companyRouter.get('/api/company/:id', (request, response, next) => {
 });
 
 companyRouter.put('/api/company/:id', jsonParser, (request, response, next) => {
-  logger.log('info', 'PUT - processing a new put request');
 
   return Company.findById(request.params.id)
     .then(company => {
-      if (!request.body.name || !request.body.location) {
+      if (!request.body) {
         throw httpErrors(400, 'body and content are required');
       }
       if (!company){
         throw httpErrors(404, 'company not found');
       }
-      company.set({
-        name: `${request.body.name}`,
-        location: `${request.body.location}`,
-      });
+      if (request.body.name){
+        company.set({
+          name: `${request.body.name}`,
+        });
+      }
+      if (request.body.location){
+        company.set({
+          location: `${request.body.location}`,
+        });
+      }
       if (request.body.yearEstablished){
         company.set({
           yearEstablished: `${request.body.yearEstablished}`,
