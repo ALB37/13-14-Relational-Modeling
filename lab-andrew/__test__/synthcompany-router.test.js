@@ -1,29 +1,20 @@
 'use strict';
 
+require('./lib/setup');
+
 const server = require('../lib/server');
 const superagent = require('superagent');
 const faker = require('faker');
-const Company = require('../model/synthcompany');
+const companyMock = require('./lib/synthcompany-mock');
 
 const PORT = process.env.PORT;
 
 const __API_URL__ = `http://localhost:${PORT}/api/company`;
 
-const createMockCompany = () => {
-  return new Company({
-    name : faker.lorem.words(1),
-    location : faker.lorem.words(1),
-    yearEstablished : faker.random.number(),
-    digitalAnalogOrBoth : 'digital',
-  }).save();
-};
-
 describe('/api/company', () => {
-  beforeEach(server.start);
-  afterEach(() => {
-    return Company.remove({})
-      .then(() => server.stop());
-  });
+  beforeAll(server.start);
+  afterEach(companyMock.remove);
+  afterAll(server.stop);
 
   describe('POST /api/company', () => {
     test('POST should respond with 200 status code and a body if no errors', () => {
@@ -53,20 +44,13 @@ describe('/api/company', () => {
     });
 
     test('POST should respond with 409 if request duplicates unique parameter', () => {
-      let dupCompany = {
-        name : 'Moog',
-        location : faker.lorem.words(1),
-        yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'analog',
-      };
-      return new Company({
-        name : 'Moog',
-        location : faker.lorem.words(1),
-        yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'analog',
-      }).save()
-        .then(() => superagent.post(`${__API_URL__}`)
-          .send(dupCompany)
+
+      return companyMock.create()
+        .then(company => superagent.post(`${__API_URL__}`)
+          .send({
+            name : company.name,
+            location : company.location,
+          })
           .catch(response => {
             expect(response.status).toEqual(409);
           })
@@ -79,7 +63,7 @@ describe('/api/company', () => {
     test('GET should respond with 200 status code and company if no errors when URL includes company id; checking that a known value that is expected is returned', () => {
       let companyTest = null;
 
-      return createMockCompany()
+      return companyMock.create()
         .then(company => {
           companyTest = company;
           return superagent.get(`${__API_URL__}/${company._id}`);
@@ -90,7 +74,7 @@ describe('/api/company', () => {
           expect(response.body.name).toEqual(companyTest.name);
           expect(response.body.location).toEqual(companyTest.location);
           expect(response.body.yearEstablished).toEqual(companyTest.yearEstablished);
-          expect(response.body.digitalAnalogOrBoth).toEqual('digital');
+          expect(response.body.digitalAnalogOrBoth).toEqual(companyTest.digitalAnalogOrBoth);
         });
     });
 
@@ -111,7 +95,7 @@ describe('/api/company', () => {
         yearEstablished : faker.random.number(),
         digitalAnalogOrBoth : 'digital',
       };
-      return createMockCompany()
+      return companyMock.create()
         .then(company => {
           return superagent.put(`${__API_URL__}/${company._id}`)
             .send(companyPut)
@@ -126,7 +110,7 @@ describe('/api/company', () => {
     });
 
     test('PUT should respond with 400 if no body or invalid body request', () => {
-      return createMockCompany()
+      return companyMock.create()
         .then(company => superagent.put(`${__API_URL__}/${company._id}`))
         .catch(response => {
           expect(response.status).toEqual(400);
@@ -140,35 +124,29 @@ describe('/api/company', () => {
         yearEstablished : faker.random.number(),
         digitalAnalogOrBoth : 'digital',
       };
-      return createMockCompany()
-        .then(() => {
-          return superagent.put(`${__API_URL__}/5a2f38171865f60a35e145ff`)
-            .send(companyPut)
-            .catch(response => {
-              expect(response.status).toEqual(404);
-            });
+      return superagent.put(`${__API_URL__}/5a2f38171865f60a35e145ff`)
+        .send(companyPut)
+        .catch(response => {
+          expect(response.status).toEqual(404);
         });
     });
 
     test('PUT should respond with 409 if request duplicates unique parameter', () => {
-      let dupCompany = {
-        name : 'Moog',
-        location : faker.lorem.words(1),
-        yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'analog',
-      };
-      return new Company({
-        name : 'Moog',
-        location : faker.lorem.words(1),
-        yearEstablished : faker.random.number(),
-        digitalAnalogOrBoth : 'analog',
-      }).save()
-        .then(company => superagent.put(`${__API_URL__}/${company._id}`)
-          .send(dupCompany)
-          .catch(response => {
-            expect(response.status).toEqual(409);
-          })
-        );
+      let dupName = null;
+      return companyMock.create()
+        .then(company => {
+          dupName = company.name;
+          return companyMock.create()
+            .then(company => superagent.put(`${__API_URL__}/${company._id}`)
+              .send({
+                name : dupName,
+                location : faker.random.number(),
+              })
+              .catch(response => {
+                expect(response.status).toEqual(409);
+              })
+            );
+        });
     });
   });
 
@@ -182,7 +160,7 @@ describe('/api/company', () => {
     });
 
     test('DELETE should respond with a 204 message if successful', () => {
-      return createMockCompany()
+      return companyMock.create()
         .then(company => {
           return superagent.delete(`${__API_URL__}/${company._id}`);
         })

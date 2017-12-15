@@ -1,7 +1,6 @@
 'use strict';
 
 const Company = require('../model/synthcompany');
-const Synth = require('../model/synth');
 const {Router} = require('express');
 const logger = require('../lib/logger');
 const httpErrors = require('http-errors');
