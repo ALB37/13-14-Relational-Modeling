@@ -1,6 +1,7 @@
 'use strict';
 
 const Company = require('../model/synthcompany');
+const Synth = require('../model/synth');
 const {Router} = require('express');
 const logger = require('../lib/logger');
 const httpErrors = require('http-errors');
@@ -8,7 +9,6 @@ const jsonParser = require('body-parser').json();
 const companyRouter = module.exports = new Router();
 
 companyRouter.post('/api/company', jsonParser, (request, response, next) => {
-  logger.log('info', 'POST - processing new post request');
 
   if (!request.body.name || !request.body.location) {
     logger.log('info', 'POST - responding with a 400');
@@ -21,7 +21,6 @@ companyRouter.post('/api/company', jsonParser, (request, response, next) => {
 });
 
 companyRouter.get('/api/company/:id', (request, response, next) => {
-  logger.log('info', 'GET - processing a new get request');
 
   return Company.findById(request.params.id)
     .then(company => {
@@ -36,7 +35,6 @@ companyRouter.get('/api/company/:id', (request, response, next) => {
 });
 
 companyRouter.put('/api/company/:id', jsonParser, (request, response, next) => {
-  logger.log('info', 'PUT - processing a new put request');
 
   return Company.findById(request.params.id)
     .then(company => {
@@ -74,6 +72,9 @@ companyRouter.delete('/api/company/:id', (request, response, next) => {
     .then(company => {
       if (!company){
         throw httpErrors(404, 'company not found');
+      }
+      if (company.synths.length){
+        throw httpErrors(401, 'company has active relations, delete unauthorized');
       }
       logger.log('info', 'DELETE - Returning a 200 status code');
       logger.log('info', company);

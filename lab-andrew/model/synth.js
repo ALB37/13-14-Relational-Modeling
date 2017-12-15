@@ -11,7 +11,7 @@ const synthSchema = mongoose.Schema({
     unique : true,
   },
   polyphony : {
-    type : String,
+    type : Number,
     required : true,
   },
   yearReleased : {
@@ -21,6 +21,7 @@ const synthSchema = mongoose.Schema({
     type : String,
   },
   synthCompany : {type : mongoose.Schema.Types.ObjectId,
+    required : true,
     ref: 'synthCompany'},
 });
 
@@ -33,7 +34,8 @@ synthSchema.pre('save', function(done){
       companyFound.synths.push(this._id);
       return companyFound.save();
     })
-    .then(() => done());
+    .then(() => done())
+    .catch(done);
 });
 
 synthSchema.post('remove', (document, done) => {
