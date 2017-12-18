@@ -172,8 +172,8 @@ describe('/api/synth', () => {
           }).save()
             .then(() => superagent.put(`${__API_URL__}/${someSynth._id}`)
               .send({name : 'Prophet5', polyphony : 5, synthCompany : companyId})
-              .catch(err => {
-                expect(err).toBeTruthy();
+              .catch(response => {
+                expect(response.status).toEqual(409);
               })
             );
         });
